@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+.header{
+    text-align: center;
+    color: rgb(160, 112, 10);
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header1{
+    text-align: center;
+    color:#f6e1c5;
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin: 30px;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    color:rgb(218, 204, 174); 
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divfoot{
+    background-color: rgba(47, 23, 15, 0.9);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+.ful2{
+    position: absolute;
+    background-color: #2f170fa1;
+    width: 100%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-family:"Raleway", sans-serif ;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.content{
+    padding: 60px;
+    width: 900px;
+    background-color:rgb(218, 204, 174);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: -60px;
+    position: absolute;
+}
+img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    position: relative;
+}
+.navigation span{
+    transition: 0.3s;
+}
+.navigation span :hover{
+    color: rgb(169, 102, 7);
+}

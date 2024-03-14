@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+.header{
+    text-align: center;
+    color: rgb(160, 112, 10);
+    font-size: 35px;
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header1{
+    text-align: center;
+    color:#f6e1c5;
+    font-size: 80px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin: 30px;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    color:rgb(218, 204, 174); 
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2{
+    padding: 70px;
+    width: 500px;
+    background-color:rgb(218, 204, 174);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 170px;
+    position: absolute;
+    bottom: 40%;
+}
+.div2 h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.div2 h2{
+    font-family:"Raleway", sans-serif ;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.a1{
+    background-color:  #eea342;
+    padding: 22px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+    margin-left: 260px;
+    position: absolute;
+    text-align: center;
+    right: 72%;
+    bottom: 35%;
+}
+.divbutton{
+    transition: 0.3s;
+}
+.divbutton :hover{
+    background-color: #e7dfd5;
+}
+.divimage{
+    width: 1000px;
+    margin-left: 390px;
+    margin-top: 40px;
+}
+.divimage img{
+    width: 100%;
+}
+.div1{
+    display: flex;
+    position: relative;
+}
+.div3{
+    background-color: #dec099;
+    border: 5px solid rgb(220, 143, 0);
+    width: 950px;
+    padding: 40px;
+    margin: 30px;
+    margin-left: 230px;
+    box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
+-webkit-box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
+-moz-box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
+
+}
+.div3 h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.div3 h2{
+    font-family:"Raleway", sans-serif ;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.sec3{
+    background-color: rgba(230, 167, 86, 0.9);
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+.divfoot{
+    background-color: rgba(47, 23, 15, 0.9);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.ful2{
+    position: absolute;
+    background-color: #2f170fa1;
+    width: 100%;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.navigation span{
+    transition: 0.3s;
+}
+.navigation span :hover{
+    color: rgb(169, 102, 7);
+}
