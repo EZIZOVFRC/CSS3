@@ -92,7 +92,7 @@ body{
 }
 .div3{
     background-color: #dec099;
-    border: 5px solid rgb(220, 143, 0);
+    border: 5px solid rgb(195, 126, 0);
     width: 950px;
     padding: 40px;
     margin: 30px;
@@ -100,6 +100,8 @@ body{
     box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
 -webkit-box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
 -moz-box-shadow: -2px 1px 30px 10px rgba(221,159,20,1);
+outline: 4px solid #ffdcaf;
+border-radius: 5px
 
 }
 .div3 h5{
